@@ -1,3 +1,5 @@
 function getImageURL(){
-    return window.location.search.substring(1);
+    return "url(" + window.location.search.substring(1) + ")";
 }
+
+$("#image").css("background-image", getImageURL())
