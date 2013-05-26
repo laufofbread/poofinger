@@ -1,0 +1,15 @@
+html {
+	cursor: url(img/cursor.gif), auto;
+}
+
+div {
+    position:               absolute;
+	font-size:              24px;
+	font-family:            Helvetica, Arial, sans-serif;
+	font-weight:            600;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         0;
+	line-height:            23px;
+    color:                  #333;
+    text-decoration:        none;
+}
