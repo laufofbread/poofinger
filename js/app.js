@@ -5,5 +5,5 @@ function getImageURL(){
 
 $(function() {
     $("#simple_sketch").css("background-image", getImageURL());
-    $('#simple_sketch').sketch();
+    $('#simple_sketch').sketch({defaultColor: "#564023", defaultSize: "13px"});
 });

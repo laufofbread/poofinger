@@ -1,5 +1,5 @@
 html {
-	cursor: url(img/cursor.gif), auto;
+	cursor:                 url(img/cursor.gif), auto;
 }
 
 .text {
@@ -28,3 +28,4 @@ html {
     background-size:        contain;
     background-attachment:  fixed;
 }
+
