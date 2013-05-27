@@ -10,12 +10,16 @@
 </head>
 <body>
     <div class="text">
-        <p>Paste an image URL on to the end of the site URL.</p>
+        <p>Paste an image URL in the top right box.</p>
         <p>Do some finger painting.</p>
         <p>Screenshot and tweet to @laufofbread.</p>
     </div>
-    <input type="text" id="typebox" placeholder="add a url here"></input>
-    <input type="submit" style="border:2px outset buttonface;border-color:darkgrey" value="GO"></input>
+    
+    <form id="inputbox">
+        <input type="text" id="typebox" placeholder="add a url here"></input>
+        <input type="submit" style="border:2px outset buttonface;border-color:darkgrey" value="GO"></input>
+    </form>
+    
     <div id="image"></div>
     <canvas id="simple_sketch"></canvas>
     
