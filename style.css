@@ -38,14 +38,12 @@ html {
     background-attachment:  fixed;
 }
 
-input {
+.input-append {
     position:               absolute;
-    right:                  0;
+    top:                    5px;
+    right:                  5px;
     z-index:                999;
 }
 
-#typebox {
-    margin-right:           40px;
-    margin-top:             4px;
-}
+
 

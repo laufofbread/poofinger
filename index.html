@@ -5,7 +5,8 @@
     <title>poop finger</title>
 
     <link rel="shortcut icon" href="./img/favicon.ico">
-	<link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
 	
 </head>
 <body>
@@ -16,13 +17,15 @@
     </div>
     
     <form id="inputbox">
-        <input type="text" id="typebox" placeholder="add a url here"></input>
-        <input type="submit" style="border:2px outset buttonface;border-color:darkgrey" value="GO"></input>
+        <div class="input-append">
+          <input class="span2" id="appendedInputButton" type="text">
+          <button class="btn" type="button">Go!</button>
+        </div>
     </form>
     
     <div id="image"></div>
     <canvas id="simple_sketch"></canvas>
-    
+
     <script src="./js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="./js/sketch.js" type="text/javascript" charset="utf-8"></script>
     <script src="./js/app.js" type="text/javascript" charset="utf-8"></script>
